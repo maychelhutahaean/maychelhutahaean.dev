@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects | Maychel Hutahaean</title>
+    <link rel="icon" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav-wrap">
+      <nav class="site nav" aria-label="Primary navigation">
+        <a class="brand" href="index.html" aria-label="Home">
+          <img src="assets/images/favicon.ico" alt="MH logo" width="32" height="32" />
+        </a>
+        <button class="mobile-toggle" type="button" aria-label="Open menu"><span></span></button>
+        <div class="nav-links">
+          <a href="index.html">Home</a><a class="active" href="projects.html">Projects</a><a href="reports.html">Reports</a><a href="documents.html">Documents</a><a href="skills.html">Skills</a><a href="experience.html">Experience</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+        </div>
+        <a class="btn" href="assets/docs/cv-maychel-hutahaean.pdf" download>Download CV</a>
+      </nav>
+    </header>
+    <main class="site main">
+      <div class="page-title"><h1>Projects</h1><p>Automation projects and quality engineering work samples.</p></div>
+      <div class="project-filter">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="api">API Automation</button>
+        <button class="chip" data-filter="web">Web Automation</button>
+        <button class="chip" data-filter="mobile">Mobile Testing</button>
+        <button class="chip" data-filter="performance">Performance</button>
+      </div>
+      <section class="project-grid">
+        <article class="project-card" data-category="api"><div class="project-image"></div><div class="card-body"><span class="tag">API Automation</span><h3>Merchant API Automation</h3><p>REST Assured, Java, TestNG, and Allure reporting for merchant API regression coverage.</p><div class="mini-icons"><span>J</span><span>R</span><span>G</span><span>P</span></div><a class="text-link" href="#">View Project &rarr;</a></div></article>
+        <article class="project-card" data-category="web"><div class="project-image"></div><div class="card-body"><span class="tag">Web Automation</span><h3>Web Automation Framework</h3><p>Selenium WebDriver framework with Page Object Model and data-driven test execution.</p><div class="mini-icons"><span>S</span><span>J</span><span>G</span><span>A</span></div><a class="text-link" href="#">View Project &rarr;</a></div></article>
+        <article class="project-card" data-category="mobile"><div class="project-image"></div><div class="card-body"><span class="tag">Mobile Testing</span><h3>Mobile Testing Android</h3><p>Android app automation using Appium, TestNG, and reusable mobile utilities.</p><div class="mini-icons"><span>A</span><span>J</span><span>G</span><span>T</span></div><a class="text-link" href="#">View Project &rarr;</a></div></article>
+        <article class="project-card" data-category="performance"><div class="project-image"></div><div class="card-body"><span class="tag">Performance</span><h3>Performance Testing</h3><p>JMeter performance testing for REST APIs with dashboards and analysis notes.</p><div class="mini-icons"><span>JM</span><span>G</span><span>D</span></div><a class="text-link" href="#">View Project &rarr;</a></div></article>
+        <article class="project-card" data-category="api web"><div class="project-image"></div><div class="card-body"><span class="tag">DevOps</span><h3>CI/CD Pipeline</h3><p>Automated test execution through Jenkins and pipeline quality gates.</p><div class="mini-icons"><span>Jk</span><span>D</span><span>G</span></div><a class="text-link" href="#">View Project &rarr;</a></div></article>
+        <article class="project-card" data-category="web"><div class="project-image"></div><div class="card-body"><span class="tag">Web Automation</span><h3>E2E Testing Demo</h3><p>End-to-end ecommerce scenario testing with reusable test data and reporting.</p><div class="mini-icons"><span>S</span><span>J</span><span>G</span></div><a class="text-link" href="#">View Project &rarr;</a></div></article>
+      </section>
+    </main>
+    <footer class="footer"><div class="site footer-inner"><span>@2026 Maychel Jecsan Hutahaean. All Right Reserved</span></div></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
